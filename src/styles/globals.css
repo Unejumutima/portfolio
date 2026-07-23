@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-background: #09090b;
+  --color-primary: #f97316;
+  --color-secondary: #fb923c;
+  --color-text: #ffffff;
+  --color-text-secondary: #a1a1aa;
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.15);
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  --font-size-display-xl: clamp(2.5rem, 5vw, 4.5rem);
+  --font-size-display-lg: clamp(2rem, 4vw, 3.5rem);
+  --font-size-display-md: clamp(1.75rem, 3vw, 2.5rem);
+  --font-size-heading-lg: clamp(1.5rem, 2.5vw, 2rem);
+  --font-size-heading-md: clamp(1.25rem, 2vw, 1.5rem);
+  --font-size-heading-sm: 1.125rem;
+  --font-size-body-lg: 1.125rem;
+  --font-size-body-md: 1rem;
+  --font-size-body-sm: 0.875rem;
+  --font-size-caption: 0.75rem;
+
+  --spacing-section: 5rem;
+  --spacing-section-lg: 7rem;
+
+  --shadow-glow-primary: 0 0 40px rgba(249, 115, 22, 0.35);
+  --shadow-glow-secondary: 0 0 40px rgba(251, 146, 60, 0.35);
+  --shadow-glow-subtle: 0 0 60px rgba(249, 115, 22, 0.15);
+
+  --animate-pulse-glow: pulse-glow 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
