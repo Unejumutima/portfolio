@@ -4,7 +4,7 @@ export const PROJECTS_DATA: ProjectsContent = {
   title: 'Featured Work',
   subtitle: 'Products built with purpose, precision, and security in mind.',
   description:
-    'A curated selection of applications spanning AI-powered transport, inventory, secure messaging, and cybersecurity tooling.',
+    'A curated selection of projects — from an early HTML/CSS coffee shop site to AI-powered transport, secure messaging, inventory systems, and cybersecurity tooling.',
   featuredProjectId: 'cybersecurity-dashboard',
   filters: ['All', 'Frontend', 'Backend', 'Full Stack', 'Cybersecurity'],
   projects: [
@@ -111,6 +111,32 @@ export const PROJECTS_DATA: ProjectsContent = {
         'Designing a modular OOP architecture that remains extensible as features grow',
         'Implementing anonymous messaging while preserving message integrity and delivery',
         'Applying robust input validation and exception handling throughout the system',
+      ],
+      status: 'Completed',
+    },
+    {
+      id: 'coffee-shop',
+      title: 'Coffee Shop Website',
+      description:
+        'A multi-page coffee shop website built with plain HTML and CSS — one of my first web projects that started the journey.',
+      longDescription:
+        'A multi-page static website for a coffee shop, built entirely with plain HTML and CSS without any frameworks or libraries. This was one of my earliest web development projects and marks the beginning of my frontend journey. It covers all the essential pages a real business website needs and reflects the foundational skills that everything since has been built on.',
+      technologies: ['HTML', 'CSS'],
+      category: 'Frontend',
+      image: 'placeholder:coffee',
+      githubUrl: '#',
+      liveUrl: '#',
+      features: [
+        'Multi-page layout including Home, Menu, About, and Contact pages',
+        'Structured semantic HTML for clear content hierarchy',
+        'Custom CSS styling with consistent typography and colour scheme',
+        'Responsive layout principles applied across pages',
+        'Navigation bar linking all pages for smooth site browsing',
+      ],
+      challenges: [
+        'Learning to structure multi-page sites without a framework or build tool',
+        'Achieving consistent styling across pages using only vanilla CSS',
+        'Understanding the fundamentals of layout, spacing, and visual hierarchy from scratch',
       ],
       status: 'Completed',
     },
