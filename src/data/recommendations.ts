@@ -12,7 +12,7 @@ export const RECOMMENDATIONS_DATA: RecommendationsContent = {
       relationship: 'Internship Supervisor',
       rating: 5,
       content:
-        'Working with this developer during their internship was an outstanding experience. They demonstrated an impressive ability to pick up new technologies quickly, delivered clean and maintainable code, and consistently went beyond what was asked. Their attention to detail in both UI implementation and backend logic made a real impact on our project timeline. I would highly recommend them to any team looking for a driven, technically capable developer.',
+        'Working with this developer during their internship was an outstanding experience. They demonstrated an impressive ability to pick up new technologies quickly, delivered clean and maintainable code, and consistently went beyond what was asked. Their attention to detail in both UI implementation and backend logic made a real impact on our project timeline. I would highly recommend them to any team looking for a driven, technically capable full-stack developer.',
     },
     {
       id: 'rec-02',
