@@ -6,17 +6,17 @@ export const RECOMMENDATIONS_DATA: RecommendationsContent = {
   recommendations: [
     {
       id: 'rec-01',
-      name: 'Alex Morgan',
+      name: 'Emmanuel BYIRINGIRO',
       role: 'Senior Software Engineer',
       company: 'TechCorp Solutions',
       relationship: 'Internship Supervisor',
       rating: 5,
       content:
-        'Working with this developer during their internship was an outstanding experience. They demonstrated an impressive ability to pick up new technologies quickly, delivered clean and maintainable code, and consistently went beyond what was asked. Their attention to detail in both UI implementation and backend logic made a real impact on our project timeline. I would highly recommend them to any team looking for a driven, technically capable full-stack developer.',
+        'Honorine is a motivated and curious young developer who demonstrated professionalism, teamwork, and a strong willingness to learn. She was committed to the project we worked on together, and I am confident she will continue to grow and achieve great things.',
     },
     {
       id: 'rec-02',
-      name: 'Mugisha Ineza Nora',
+      name: 'Nora INEZA MUGISHA',
       role: 'Full Stack Developer',
       company: 'Freelance / Independent',
       relationship: 'Colleague',

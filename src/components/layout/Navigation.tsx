@@ -166,7 +166,7 @@ export function Navigation() {
               animate="visible"
               exit="exit"
               variants={slideInFromRight}
-              className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col glass-card border-y-0 border-r-0 p-6 lg:hidden"
+              className="fixed inset-0 z-50 flex w-full flex-col glass-card border-0 p-6 lg:hidden"
             >
               <div className="mb-8 flex items-center justify-between">
                 <span className="text-heading-sm">Menu</span>
