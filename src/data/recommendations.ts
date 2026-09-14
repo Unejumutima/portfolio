@@ -7,12 +7,12 @@ export const RECOMMENDATIONS_DATA: RecommendationsContent = {
     {
       id: 'rec-01',
       name: 'Emmanuel BYIRINGIRO',
-      role: 'Senior Software Engineer',
-      company: 'TechCorp Solutions',
-      relationship: 'Internship Supervisor',
+      role: 'Co-founder & CTO',
+      company: 'Blink Technologiz',
+      relationship: 'Temporary Employer',
       rating: 5,
       content:
-        'Honorine is a motivated and curious young developer who demonstrated professionalism, teamwork, and a strong willingness to learn. She was committed to the project we worked on together, and I am confident she will continue to grow and achieve great things.',
+        'Honorine is a motivated and curious young developer who demonstrated professionalism, teamwork, and a strong willingness to learn. She was committed to the project we worked on together, and I am confident she will continue to grow and achieve great things. What stood out most was their ability to translate design concepts into pixel-perfect, responsive implementations. A reliable and talented partner — I would work with them again without hesitation.',
     },
     {
       id: 'rec-02',
@@ -26,13 +26,13 @@ export const RECOMMENDATIONS_DATA: RecommendationsContent = {
     },
     {
       id: 'rec-03',
-      name: 'Dr. Casey Nguyen',
-      role: 'Associate Professor, Computer Science',
-      company: 'University of Technology',
-      relationship: 'Academic Mentor',
+      name: 'Olivier NIYONSHIMA',
+      role: 'CTO',
+      company: 'Zuba House',
+      relationship: 'Internship Supervisor',
       rating: 5,
       content:
-        'As an academic mentor, I have had the privilege of watching this student grow into a highly capable developer. Their approach to problem-solving is analytical and methodical, and they bring a genuine curiosity to everything they work on. Their final project — a full-stack web application with a focus on security — was among the best I have reviewed. With their combination of technical skill, work ethic, and professional attitude, I am confident they will excel in any engineering role.',
+        'Honorine was a dedicated and hardworking Full-Stack Developer intern. She was eager to learn, responsible with her work, and always open to feedback. I was impressed by her professionalism and how she delivered clean and maintainable codes, and I confidently recommend her for future opportunities.',
     },
   ],
 };
